@@ -19,7 +19,8 @@ template <typename T> class MaxHeap{
 
 int main() {
 	ios_base::sync_with_stdio(false);
-	cin.tie(nullptr);
+	std::cin.tie(nullptr);
+    std::cout.tie(nullptr);
 
 	#ifdef TEST
 	freopen("input1.txt", "r", stdin);
