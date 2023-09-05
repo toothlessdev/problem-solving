@@ -1,7 +1,9 @@
 *
 
-dSYM/
 
 !*.*
 
 !*/
+
+/.cph
+/FAILED
