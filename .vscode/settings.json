@@ -1,8 +1,2 @@
 {
-    "files.associations": {
-        "ios": "cpp",
-        "iostream": "cpp",
-        "vector": "cpp",
-        "__bit_reference": "cpp"
-    }
 }
