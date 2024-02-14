@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const alphabet = ["c=", "c-", "dz=", "d-", "li", "nj", "s=", "z="];
+const alphabet = ["c=", "c-", "d-", "lj", "nj", "s=", "z="];
 let str = fs
     .readFileSync(process.platform === "linux" ? "/dev/stdin" : "../input.txt")
     .toString()
@@ -9,5 +9,15 @@ let str = fs
 let count = 0;
 
 for (let i = 0; i < str.length; i++) {
-    str.substring(i, i + 1);
+    for (const word of alphabet) {
+        if (str.substring(i, i + 2) === word) {
+            console.log(str.substring(i, i + 2), word);
+            str = str.replace(word, "");
+            count++;
+        }
+    }
 }
+
+console.log(str);
+
+console.log(count + str.length);

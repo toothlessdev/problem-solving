@@ -1,4 +1,10 @@
-
-    for (let k = 0; k <= 2 * (i - n) + 1; k++) {
-        str += "*";
-    }
+for (const a of alphabet) {
+    //     if (str.substring(i, i + 2) === a) {
+    //         count++;
+    //         str = str.replace(a, "");
+    //     }
+    // }
+    // if (str.substring(i, i + 3) === "dz=") {
+    //     count++;
+    //     str = str.replace("dz=", "");
+    // }
