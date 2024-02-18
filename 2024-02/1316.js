@@ -8,15 +8,11 @@ let [, ...str] = fs
 
 console.log(str);
 
+// 체크한 단어가 또 나오면 그룹 단어 아님
 function isGroupWord(word) {
-    let alphabet = [];
-    let currentAlphabet = "";
-    for (let i = 0; i < word.length; i++) {
-        currentAlphabet = word[i];
-        if (alphabet.includes(currentAlphabet)) {
-            alphabet.push(currentAlphabet);
-        } else {
-        }
+    for (let i = 1; i < word.length; i++) {
         //
     }
 }
+
+console.log(isGroupWord("abbcbbb"));
