@@ -6,13 +6,21 @@ let [, ...str] = fs
     .trim()
     .split("\n");
 
-console.log(str);
-
 // 체크한 단어가 또 나오면 그룹 단어 아님
 function isGroupWord(word) {
-    for (let i = 1; i < word.length; i++) {
-        //
+    let alphabet = [];
+    for (let i = 0; i < word.length; i++) {
+        if (word[i] !== word[i + 1]) {
+            if (alphabet.includes(word[i])) return false;
+            alphabet.push(word[i]);
+        }
     }
+    return true;
 }
 
-console.log(isGroupWord("abbcbbb"));
+let count = 0;
+str.forEach((s) => {
+    if (isGroupWord(s)) count += 1;
+});
+
+console.log(count);
