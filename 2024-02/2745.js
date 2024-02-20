@@ -5,11 +5,12 @@ let [n, b] = fs
     .trim()
     .split(" ");
 
-let format = Array.from(Array(36).keys());
+let format = [...Array.from({ length: 10 }, (v, k) => k.toString()), ...Array.from({ length: 26 }, (v, k) => String.fromCharCode(k + 97))];
 
-console.log(format);
+n = n.toLowerCase().split("").reverse();
 
-n = n.split("");
-b = Number(b);
-
-console.log(n, b);
+let sum = 0;
+for (let i = 0; i < n.length; i++) {
+    sum += b ** i * format.findIndex((v) => v === n[i]);
+}
+console.log(sum);
