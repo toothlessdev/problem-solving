@@ -1,10 +1,11 @@
 const fs = require("fs");
 let n = Number(fs.readFileSync(process.platform === "linux" ? "/dev/stdin" : "../input.txt"));
 
-let dp = [0, 1, 2, 2, 2, 2, 2, 2];
+let range = 1;
+let block = 1;
 
-for (let i = 8; i < n; i++) {
-    dp[i];
+while (block < n) {
+    block += 6 * range;
+    range++;
 }
-
-console.log(n);
+console.log(range);
