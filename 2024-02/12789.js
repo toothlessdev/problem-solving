@@ -16,7 +16,6 @@ let [n, line] = fs
 function isAcceptible(line) {
     let next = 1;
     let waiting = [];
-    let sorted = [];
 
     for (const index of line.split(" ").map(Number)) {
         waiting.push(index);
