@@ -1,16 +1,4 @@
-15
-push 1
-push 2
-front
-back
-size
-empty
-pop
-pop
-pop
-size
-empty
-pop
-push 3
-empty
-front
+8 16
+32 4
+17 5
+0 0
