@@ -7,18 +7,37 @@ const dy = [0, 0, 1, -1];
 class Queue {
     constructor() {
         this.queue = [];
-        this.begin = -1;
-        this.end = -1;
-    }
-    push(element) {
-        this.queue.push(element);
-        this.end++;
-    }
-    pop() {
-        return this.queue[++this.begin];
+        this.front = 0;
+        this.rear = 0;
     }
     size() {
-        return this.end - this.begin;
+        if (this.queue[this.rear] === undefined) {
+            return 0;
+        } else {
+            return this.rear - this.rear + 1;
+        }
+    }
+    push(value) {
+        if (this.size() === 0) {
+            this.queue[0] = value;
+        } else {
+            this.rear += 1;
+            this.queue[this.rear] = value;
+        }
+    }
+    pop() {
+        let temp;
+        if (this.front === this.rear) {
+            temp = this.queue[this.front];
+            delete this.queue[this.front];
+            this.front = 0;
+            this.rear = 0;
+        } else {
+            temp = this.queue[this.front];
+            delete this.queue[this.front];
+            this.front += 1;
+        }
+        return temp;
     }
 }
 
@@ -42,7 +61,7 @@ for (let y = 0; y < y_size; y++) {
 
 function BFS(positions) {
     let day = 1;
-    let queue = new Array();
+    let queue = new Queue();
     let isVisited = new Array(y_size).fill().map(() => new Array(x_size).fill(0));
 
     positions.forEach((position) => {
@@ -50,8 +69,8 @@ function BFS(positions) {
         isVisited[position.y][position.x] = 1;
     });
 
-    while (queue.length !== 0) {
-        let current = queue[0];
+    while (queue.size() !== 0) {
+        let current = queue.pop();
 
         for (let dir = 0; dir < 4; dir++) {
             let X = current.x + dx[dir];
@@ -65,7 +84,6 @@ function BFS(positions) {
                 }
             }
         }
-        queue.shift();
     }
 
     for (let y = 0; y < y_size; y++) {
@@ -73,7 +91,6 @@ function BFS(positions) {
             if (map[y][x] !== -1 && isVisited[y][x] === 0) return -1;
         }
     }
-
     return day - 1;
 }
 
