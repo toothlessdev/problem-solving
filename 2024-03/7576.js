@@ -85,7 +85,6 @@ function BFS(positions) {
             }
         }
     }
-
     for (let y = 0; y < y_size; y++) {
         for (let x = 0; x < x_size; x++) {
             if (map[y][x] !== -1 && isVisited[y][x] === 0) return -1;

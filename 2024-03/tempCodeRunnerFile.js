@@ -1,2 +1,2 @@
-let edge = Array(n + 1)
-    .fill()
+weight[begin + 1]} + ${weight[end]} = ${case1}`);
+        console.log(`case2 : ${
