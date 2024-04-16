@@ -2,7 +2,7 @@
  * @param {Array} arr
  * @param {Number} node
  */
-function MaxHeapify(arr, node) {
+function MaxHeapify(arr, size, node) {
     let left = node * 2;
     let right = node * 2 + 1;
     let max = node;
@@ -16,9 +16,12 @@ function MaxHeapify(arr, node) {
     }
 }
 
+/**
+ * @param {Array} arr
+ */
 function BuildMaxHeap(arr) {
     for (let node = Math.floor(arr.length / 2); node >= 1; node--) {
-        MaxHeapify(arr, node);
+        MaxHeapify(arr, arr.length, node);
     }
 }
 
