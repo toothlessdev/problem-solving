@@ -32,7 +32,7 @@ function Merge(arr, start, mid, end) {
  */
 function MergeSort(arr, start, end) {
     if (start < end) {
-        let mid = parseInt((start + end) / 2);
+        let mid = Math.floor((start + end) / 2);
         MergeSort(arr, start, mid);
         MergeSort(arr, mid + 1, end);
         Merge(arr, start, mid, end);
