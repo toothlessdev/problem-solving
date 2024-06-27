@@ -1,4 +1,4 @@
 {
     "prefix": "!ps",
-    "body": ["let fs = require('fs');", "let input = fs.readFileSync('/dev/stdin').toString().split(' ');", ""]
+    "body": ["const fs = require('fs');", "const io = process.platform === 'linux' ? '/dev/stdin' : '../input.txt';"]
 }

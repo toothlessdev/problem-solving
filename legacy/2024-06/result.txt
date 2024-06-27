@@ -1,0 +1,3576 @@
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: TCTTACCGGACAGT--GCTGGA
+Seq 2: TCTTACCGGACAGTAAGCTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: ATCTTACCGGACAGT--GCTGG
+Seq 2: ATCTTACCGGACAGTAAGCTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: ATCTTACCGGACAGT--GCTGGA
+Seq 2: ATCTTACCGGACAGTAAGCTGGA
+Alignment score: 19
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: CATCTTACCGGACAGT--GCTG
+Seq 2: CATCTTACCGGACAGTAAGCTG
+Alignment score: 18
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: CATCTTACCGGACAGT--GCTGG
+Seq 2: CATCTTACCGGACAGTAAGCTGG
+Alignment score: 19
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: CATCTTACCGGACAGT--GCTGG-
+Seq 2: CATCTTACCGGACAGTAAGCTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: CATCTTACCGGACAGT--GCTGGA
+Seq 2: CATCTTACCGGACAGTAAGCTGG-
+Alignment score: 18
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: CATCTTACCGGACAGT--GCTGGA
+Seq 2: CATCTTACCGGACAGTAAGCTGGA
+Alignment score: 20
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: CATCTTACCGGACAGT--GCTG
+Seq 2: CATCTTACCGGACAGTAAGCTG
+Alignment score: 18
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: CATCTTACCGGACAGT--GCTGG
+Seq 2: CATCTTACCGGACAGTAAGCTGG
+Alignment score: 19
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: CATCTTACCGGACAGT--GCTGG-
+Seq 2: CATCTTACCGGACAGTAAGCTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: CATCTTACCGGACAGT--GCTGGA
+Seq 2: CATCTTACCGGACAGTAAGCTGG-
+Alignment score: 18
+
+------------------------------
+Position in file: 0
+Buffer: ATGGGCCAGA
+Seq 1: CATCTTACCGGACAGT--GCTGGA
+Seq 2: CATCTTACCGGACAGTAAGCTGGA
+Alignment score: 20
+
+------------------------------
+Position in file: 1
+Buffer: TGGGCCAGAA
+Seq 1: ATCTTACCGGACAGT--GCTGG
+Seq 2: ATCTTACCGGACAGTAAGCTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 1
+Buffer: TGGGCCAGAA
+Seq 1: ATCTTACCGGACAGT--GCTGG
+Seq 2: ATCTTACCGGACAGTAAGCTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 1
+Buffer: TGGGCCAGAA
+Seq 1: ATCTTACCGGACAGT--GCTGG
+Seq 2: ATCTTACCGGACAGTAAGCTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 1
+Buffer: TGGGCCAGAA
+Seq 1: ATCTTACCGGACAGT--GCTGG
+Seq 2: ATCTTACCGGACAGTAAGCTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 3327
+Buffer: TAGATTTTTC
+Seq 1: TGGTTTCACATGGTGGCT
+Seq 2: TGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3327
+Buffer: TAGATTTTTC
+Seq 1: CTGGTTTCACATGGTGGC
+Seq 2: CTGGTTTCACATGGTGGC
+Alignment score: 18
+
+------------------------------
+Position in file: 3327
+Buffer: TAGATTTTTC
+Seq 1: CTGGTTTCACATGGTGGCT
+Seq 2: CTGGTTTCACATGGTGGCT
+Alignment score: 19
+
+------------------------------
+Position in file: 3327
+Buffer: TAGATTTTTC
+Seq 1: CTGGTTTCACATGGTGGC-T
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: GGTTTCACATGGTGGCTT
+Seq 2: GGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: TGGTTTCACATGGTGGCT
+Seq 2: TGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: TGGTTTCACATGGTGGCTT
+Seq 2: TGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: TGGTTTCACATGGTGGCTT-
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: CTGGTTTCACATGGTGGC
+Seq 2: CTGGTTTCACATGGTGGC
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: CTGGTTTCACATGGTGGCT
+Seq 2: CTGGTTTCACATGGTGGCT
+Alignment score: 19
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: CTGGTTTCACATGGTGGC-T
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGC-T
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 20
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: CTGGTTTCACATGGTGGCTT-
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 19
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: CTGGTTTCACATGGTGGCTT--
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGG
+Seq 2: ACTGGTTTCACATGGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGC
+Seq 2: ACTGGTTTCACATGGTGGC
+Alignment score: 19
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGC-
+Seq 2: ACTGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGCT
+Seq 2: ACTGGTTTCACATGGTGGC-
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGCT
+Seq 2: ACTGGTTTCACATGGTGGCT
+Alignment score: 20
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGC-T
+Seq 2: ACTGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGC-T-
+Seq 2: ACTGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGCTT
+Seq 2: ACTGGTTTCACATGGTGGC-T
+Alignment score: 19
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGCTT
+Seq 2: ACTGGTTTCACATGGTGGCTT
+Alignment score: 21
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGCTT-
+Seq 2: ACTGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGCTT--
+Seq 2: ACTGGTTTCACATGGTGGCTTAG
+Alignment score: 19
+
+------------------------------
+Position in file: 3328
+Buffer: AGATTTTTCC
+Seq 1: ACTGGTTTCACATGGTGGC-T--T
+Seq 2: ACTGGTTTCACATGGTGGCTTAGT
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: GTTTCACATGGTGGCTTA
+Seq 2: GTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: GGTTTCACATGGTGGCTT
+Seq 2: GGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: GGTTTCACATGGTGGCTTA
+Seq 2: GGTTTCACATGGTGGCTTA
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: GGTTTCACATGGTGGCTTA-
+Seq 2: GGTTTCACATGGTGGCTTAG
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: TGGTTTCACATGGTGGCT
+Seq 2: TGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: TGGTTTCACATGGTGGCTT
+Seq 2: TGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: TGGTTTCACATGGTGGCTT-
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTT-
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: TGGTTTCACATGGTGGCTTA-
+Seq 2: TGGTTTCACATGGTGGCTTAG
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: TGGTTTCACATGGTGGCTTA--
+Seq 2: TGGTTTCACATGGTGGCTTAGT
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGC
+Seq 2: CTGGTTTCACATGGTGGC
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGCT
+Seq 2: CTGGTTTCACATGGTGGCT
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGC-T
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGC-T
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 20
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGCTT-
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGCTT--
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGCTTA
+Seq 2: CTGGTTTCACATGGTGGCTT-
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGCTTA
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 21
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGCTTA-
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 20
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: CTGGTTTCACATGGTGGCTTA--
+Seq 2: CTGGTTTCACATGGTGGCTTAGT
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGG
+Seq 2: ACTGGTTTCACATGGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGC
+Seq 2: ACTGGTTTCACATGGTGGC
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGC-
+Seq 2: ACTGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCT
+Seq 2: ACTGGTTTCACATGGTGGC-
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCT
+Seq 2: ACTGGTTTCACATGGTGGCT
+Alignment score: 20
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGC-T
+Seq 2: ACTGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGC-T-
+Seq 2: ACTGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTT
+Seq 2: ACTGGTTTCACATGGTGGC-T
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTT
+Seq 2: ACTGGTTTCACATGGTGGCTT
+Alignment score: 21
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTT-
+Seq 2: ACTGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTT--
+Seq 2: ACTGGTTTCACATGGTGGCTTAG
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGC-T--T
+Seq 2: ACTGGTTTCACATGGTGGCTTAGT
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTTA
+Seq 2: ACTGGTTTCACATGGTGGC-T-
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTTA
+Seq 2: ACTGGTTTCACATGGTGGCTT-
+Alignment score: 20
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTTA
+Seq 2: ACTGGTTTCACATGGTGGCTTA
+Alignment score: 22
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTTA-
+Seq 2: ACTGGTTTCACATGGTGGCTTAG
+Alignment score: 21
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTTA--
+Seq 2: ACTGGTTTCACATGGTGGCTTAGT
+Alignment score: 20
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGG
+Seq 2: ACTGGTTTCACATGGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGC
+Seq 2: ACTGGTTTCACATGGTGGC
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGC-
+Seq 2: ACTGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCT
+Seq 2: ACTGGTTTCACATGGTGGC-
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCT
+Seq 2: ACTGGTTTCACATGGTGGCT
+Alignment score: 20
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGC-T
+Seq 2: ACTGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGC-T-
+Seq 2: ACTGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTT
+Seq 2: ACTGGTTTCACATGGTGGC-T
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTT
+Seq 2: ACTGGTTTCACATGGTGGCTT
+Alignment score: 21
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTT-
+Seq 2: ACTGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTT--
+Seq 2: ACTGGTTTCACATGGTGGCTTAG
+Alignment score: 19
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGC-T--T
+Seq 2: ACTGGTTTCACATGGTGGCTTAGT
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTTA
+Seq 2: ACTGGTTTCACATGGTGGC-T-
+Alignment score: 18
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTTA
+Seq 2: ACTGGTTTCACATGGTGGCTT-
+Alignment score: 20
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTTA
+Seq 2: ACTGGTTTCACATGGTGGCTTA
+Alignment score: 22
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTTA-
+Seq 2: ACTGGTTTCACATGGTGGCTTAG
+Alignment score: 21
+
+------------------------------
+Position in file: 3329
+Buffer: GATTTTTCCA
+Seq 1: ACTGGTTTCACATGGTGGCTTA--
+Seq 2: ACTGGTTTCACATGGTGGCTTAGT
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: GGTTTCACATGGTGGCTT
+Seq 2: GGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: GGTTTCACATGGTGGCTTA
+Seq 2: GGTTTCACATGGTGGCTTA
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: GGTTTCACATGGTGGCTTA-
+Seq 2: GGTTTCACATGGTGGCTTAG
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: GGTTTCACATGGTGGCTTAG
+Seq 2: GGTTTCACATGGTGGCTTA-
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: GGTTTCACATGGTGGCTTAG
+Seq 2: GGTTTCACATGGTGGCTTAG
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: TGGTTTCACATGGTGGCT
+Seq 2: TGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: TGGTTTCACATGGTGGCTT
+Seq 2: TGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: TGGTTTCACATGGTGGCTT-
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTT-
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: TGGTTTCACATGGTGGCTTA-
+Seq 2: TGGTTTCACATGGTGGCTTAG
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: TGGTTTCACATGGTGGCTTAG
+Seq 2: TGGTTTCACATGGTGGCTTA-
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: TGGTTTCACATGGTGGCTTAG
+Seq 2: TGGTTTCACATGGTGGCTTAG
+Alignment score: 21
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGC
+Seq 2: CTGGTTTCACATGGTGGC
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCT
+Seq 2: CTGGTTTCACATGGTGGCT
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGC-T
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGC-T
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT-
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT--
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA
+Seq 2: CTGGTTTCACATGGTGGCTT-
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 21
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA-
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTT--
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTTA-
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 22
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGC
+Seq 2: CTGGTTTCACATGGTGGC
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCT
+Seq 2: CTGGTTTCACATGGTGGCT
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGC-T
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGC-T
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT-
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT--
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA
+Seq 2: CTGGTTTCACATGGTGGCTT-
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 21
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA-
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTT--
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTTA-
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 22
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGC
+Seq 2: CTGGTTTCACATGGTGGC
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCT
+Seq 2: CTGGTTTCACATGGTGGCT
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGC-T
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGC-T
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT-
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT--
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA
+Seq 2: CTGGTTTCACATGGTGGCTT-
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 21
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA-
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTT--
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTTA-
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 22
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGC
+Seq 2: CTGGTTTCACATGGTGGC
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCT
+Seq 2: CTGGTTTCACATGGTGGCT
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGC-T
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGC-T
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT
+Seq 2: CTGGTTTCACATGGTGGCTT
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT-
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTT--
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA
+Seq 2: CTGGTTTCACATGGTGGCTT-
+Alignment score: 19
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA
+Seq 2: CTGGTTTCACATGGTGGCTTA
+Alignment score: 21
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTA-
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTT--
+Alignment score: 18
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTTA-
+Alignment score: 20
+
+------------------------------
+Position in file: 3330
+Buffer: ATTTTTCCAT
+Seq 1: CTGGTTTCACATGGTGGCTTAG
+Seq 2: CTGGTTTCACATGGTGGCTTAG
+Alignment score: 22
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCT
+Seq 2: TGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT
+Seq 2: TGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT-
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTT-
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAG
+Seq 2: TGGTTTCACATGGTGGCTTA-
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAGA
+Seq 2: TGGTTTCACATGGTGGCTT--A
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCT
+Seq 2: TGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT
+Seq 2: TGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT-
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTT-
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAG
+Seq 2: TGGTTTCACATGGTGGCTTA-
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAGA
+Seq 2: TGGTTTCACATGGTGGCTT--A
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCT
+Seq 2: TGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT
+Seq 2: TGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT-
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTT-
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAG
+Seq 2: TGGTTTCACATGGTGGCTTA-
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAGA
+Seq 2: TGGTTTCACATGGTGGCTT--A
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCT
+Seq 2: TGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT
+Seq 2: TGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT-
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTT-
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAG
+Seq 2: TGGTTTCACATGGTGGCTTA-
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAGA
+Seq 2: TGGTTTCACATGGTGGCTT--A
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCT
+Seq 2: TGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT
+Seq 2: TGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT-
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTT-
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAG
+Seq 2: TGGTTTCACATGGTGGCTTA-
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAGA
+Seq 2: TGGTTTCACATGGTGGCTT--A
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCT
+Seq 2: TGGTTTCACATGGTGGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT
+Seq 2: TGGTTTCACATGGTGGCTT
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTT-
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTT-
+Alignment score: 18
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTA
+Seq 2: TGGTTTCACATGGTGGCTTA
+Alignment score: 20
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAG
+Seq 2: TGGTTTCACATGGTGGCTTA-
+Alignment score: 19
+
+------------------------------
+Position in file: 3331
+Buffer: TTTTTCCATG
+Seq 1: TGGTTTCACATGGTGGCTTAGA
+Seq 2: TGGTTTCACATGGTGGCTT--A
+Alignment score: 18
+
+------------------------------
+Position in file: 3332
+Buffer: TTTTCCATGA
+Seq 1: GGTTTCACATGGTGGCTT
+Seq 2: GGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3332
+Buffer: TTTTCCATGA
+Seq 1: GGTTTCACATGGTGGCTT
+Seq 2: GGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3332
+Buffer: TTTTCCATGA
+Seq 1: GGTTTCACATGGTGGCTT
+Seq 2: GGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3332
+Buffer: TTTTCCATGA
+Seq 1: GGTTTCACATGGTGGCTT
+Seq 2: GGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3332
+Buffer: TTTTCCATGA
+Seq 1: GGTTTCACATGGTGGCTT
+Seq 2: GGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 3332
+Buffer: TTTTCCATGA
+Seq 1: GGTTTCACATGGTGGCTT
+Seq 2: GGTTTCACATGGTGGCTT
+Alignment score: 18
+
+------------------------------
+Position in file: 9342
+Buffer: GGTCTATTCT
+Seq 1: AGTTGAATCACAGTGCTGAT
+Seq 2: AGTTAAATCACAGTGCTGAT
+Alignment score: 18
+
+------------------------------
+Position in file: 9342
+Buffer: GGTCTATTCT
+Seq 1: CAGTTGAATCACAGTGCTGA
+Seq 2: CAGTTAAATCACAGTGCTGA
+Alignment score: 18
+
+------------------------------
+Position in file: 9342
+Buffer: GGTCTATTCT
+Seq 1: CAGTTGAATCACAGTGCTGAT
+Seq 2: CAGTTAAATCACAGTGCTGAT
+Alignment score: 19
+
+------------------------------
+Position in file: 9342
+Buffer: GGTCTATTCT
+Seq 1: CAGTTGAATCACAGTGCTGAT-
+Seq 2: CAGTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: GTTGAATCACAGTGCTGATG
+Seq 2: GTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: AGTTGAATCACAGTGCTGAT
+Seq 2: AGTTAAATCACAGTGCTGAT
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: AGTTGAATCACAGTGCTGATG
+Seq 2: AGTTAAATCACAGTGCTGATG
+Alignment score: 19
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: AGTTGAATCACAGTGCTGATG-
+Seq 2: AGTTAAATCACAGTGCTGATGC
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGA
+Seq 2: CAGTTAAATCACAGTGCTGA
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGAT
+Seq 2: CAGTTAAATCACAGTGCTGAT
+Alignment score: 19
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGAT-
+Seq 2: CAGTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGATG
+Seq 2: CAGTTAAATCACAGTGCTGAT-
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGATG
+Seq 2: CAGTTAAATCACAGTGCTGATG
+Alignment score: 20
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGATG-
+Seq 2: CAGTTAAATCACAGTGCTGATGC
+Alignment score: 19
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGATG--
+Seq 2: CAGTTAAATCACAGTGCTGATGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGA
+Seq 2: CAGTTAAATCACAGTGCTGA
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGAT
+Seq 2: CAGTTAAATCACAGTGCTGAT
+Alignment score: 19
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGAT-
+Seq 2: CAGTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGATG
+Seq 2: CAGTTAAATCACAGTGCTGAT-
+Alignment score: 18
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGATG
+Seq 2: CAGTTAAATCACAGTGCTGATG
+Alignment score: 20
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGATG-
+Seq 2: CAGTTAAATCACAGTGCTGATGC
+Alignment score: 19
+
+------------------------------
+Position in file: 9343
+Buffer: GTCTATTCTA
+Seq 1: CAGTTGAATCACAGTGCTGATG--
+Seq 2: CAGTTAAATCACAGTGCTGATGCT
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: GTTGAATCACAGTGCTGATG
+Seq 2: GTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGAT
+Seq 2: AGTTAAATCACAGTGCTGAT
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATG
+Seq 2: AGTTAAATCACAGTGCTGATG
+Alignment score: 19
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATG-
+Seq 2: AGTTAAATCACAGTGCTGATGC
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATGG
+Seq 2: AGTTAAATCACAGTGCTGAT-G
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATGG
+Seq 2: AGTTAAATCACAGTGCTGATGC
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGAT
+Seq 2: AGTTAAATCACAGTGCTGAT
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATG
+Seq 2: AGTTAAATCACAGTGCTGATG
+Alignment score: 19
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATG-
+Seq 2: AGTTAAATCACAGTGCTGATGC
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATGG
+Seq 2: AGTTAAATCACAGTGCTGAT-G
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATGG
+Seq 2: AGTTAAATCACAGTGCTGATGC
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGAT
+Seq 2: AGTTAAATCACAGTGCTGAT
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATG
+Seq 2: AGTTAAATCACAGTGCTGATG
+Alignment score: 19
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATG-
+Seq 2: AGTTAAATCACAGTGCTGATGC
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATGG
+Seq 2: AGTTAAATCACAGTGCTGAT-G
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATGG
+Seq 2: AGTTAAATCACAGTGCTGATGC
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGAT
+Seq 2: AGTTAAATCACAGTGCTGAT
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATG
+Seq 2: AGTTAAATCACAGTGCTGATG
+Alignment score: 19
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATG-
+Seq 2: AGTTAAATCACAGTGCTGATGC
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATGG
+Seq 2: AGTTAAATCACAGTGCTGAT-G
+Alignment score: 18
+
+------------------------------
+Position in file: 9344
+Buffer: TCTATTCTAT
+Seq 1: AGTTGAATCACAGTGCTGATGG
+Seq 2: AGTTAAATCACAGTGCTGATGC
+Alignment score: 18
+
+------------------------------
+Position in file: 9345
+Buffer: CTATTCTATC
+Seq 1: GTTGAATCACAGTGCTGATG
+Seq 2: GTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 9345
+Buffer: CTATTCTATC
+Seq 1: GTTGAATCACAGTGCTGATG
+Seq 2: GTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 9345
+Buffer: CTATTCTATC
+Seq 1: GTTGAATCACAGTGCTGATG
+Seq 2: GTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 9345
+Buffer: CTATTCTATC
+Seq 1: GTTGAATCACAGTGCTGATG
+Seq 2: GTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 9345
+Buffer: CTATTCTATC
+Seq 1: GTTGAATCACAGTGCTGATG
+Seq 2: GTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 9345
+Buffer: CTATTCTATC
+Seq 1: GTTGAATCACAGTGCTGATG
+Seq 2: GTTAAATCACAGTGCTGATG
+Alignment score: 18
+
+------------------------------
+Position in file: 13691
+Buffer: GAGCTGTGTA
+Seq 1: GTGTAACAGCAGTCCATGTG
+Seq 2: GTGTAACAGCA-TCCATGTG
+Alignment score: 18
+
+------------------------------
+Position in file: 13691
+Buffer: GAGCTGTGTA
+Seq 1: GTGTAACAGCAGTCCATGTG
+Seq 2: GTGTAACAGCA-TCCATGTG
+Alignment score: 18
+
+------------------------------
+Position in file: 13692
+Buffer: AGCTGTGTAC
+Seq 1: TGTAACAGCAGTCCATGTGG
+Seq 2: TGTAACAGCA-TCCATGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 13692
+Buffer: AGCTGTGTAC
+Seq 1: GTGTAACAGCAGTCCATGTG
+Seq 2: GTGTAACAGCA-TCCATGTG
+Alignment score: 18
+
+------------------------------
+Position in file: 13692
+Buffer: AGCTGTGTAC
+Seq 1: GTGTAACAGCAGTCCATGTGG
+Seq 2: GTGTAACAGCA-TCCATGTGG
+Alignment score: 19
+
+------------------------------
+Position in file: 13692
+Buffer: AGCTGTGTAC
+Seq 1: GTGTAACAGCAGTCCATGTGG-
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 13692
+Buffer: AGCTGTGTAC
+Seq 1: GTGTAACAGCAGTCCATGTG
+Seq 2: GTGTAACAGCA-TCCATGTG
+Alignment score: 18
+
+------------------------------
+Position in file: 13692
+Buffer: AGCTGTGTAC
+Seq 1: GTGTAACAGCAGTCCATGTGG
+Seq 2: GTGTAACAGCA-TCCATGTGG
+Alignment score: 19
+
+------------------------------
+Position in file: 13692
+Buffer: AGCTGTGTAC
+Seq 1: GTGTAACAGCAGTCCATGTGG-
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 13692
+Buffer: AGCTGTGTAC
+Seq 1: GTGTAACAGCAGTCCATGTG
+Seq 2: GTGTAACAGCA-TCCATGTG
+Alignment score: 18
+
+------------------------------
+Position in file: 13692
+Buffer: AGCTGTGTAC
+Seq 1: GTGTAACAGCAGTCCATGTGG
+Seq 2: GTGTAACAGCA-TCCATGTGG
+Alignment score: 19
+
+------------------------------
+Position in file: 13692
+Buffer: AGCTGTGTAC
+Seq 1: GTGTAACAGCAGTCCATGTGG-
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTAACAGCAGTCCATGTGGA
+Seq 2: GTAACAGCA-TCCATGTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: TGTAACAGCAGTCCATGTGG
+Seq 2: TGTAACAGCA-TCCATGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: TGTAACAGCAGTCCATGTGGA
+Seq 2: TGTAACAGCA-TCCATGTGGA
+Alignment score: 19
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: TGTAACAGCAGTCCATGTGG-A
+Seq 2: TGTAACAGCA-TCCATGTGGAA
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTG
+Seq 2: GTGTAACAGCA-TCCATGTG
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG
+Seq 2: GTGTAACAGCA-TCCATGTGG
+Alignment score: 19
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG-
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGGA
+Seq 2: GTGTAACAGCA-TCCATGTGG-
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGGA
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 20
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG-A
+Seq 2: GTGTAACAGCA-TCCATGTGGAA
+Alignment score: 19
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTG
+Seq 2: GTGTAACAGCA-TCCATGTG
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG
+Seq 2: GTGTAACAGCA-TCCATGTGG
+Alignment score: 19
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG-
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGGA
+Seq 2: GTGTAACAGCA-TCCATGTGG-
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGGA
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 20
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG-A
+Seq 2: GTGTAACAGCA-TCCATGTGGAA
+Alignment score: 19
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTG
+Seq 2: GTGTAACAGCA-TCCATGTG
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG
+Seq 2: GTGTAACAGCA-TCCATGTGG
+Alignment score: 19
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG-
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGGA
+Seq 2: GTGTAACAGCA-TCCATGTGG-
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGGA
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 20
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG-A
+Seq 2: GTGTAACAGCA-TCCATGTGGAA
+Alignment score: 19
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTG
+Seq 2: GTGTAACAGCA-TCCATGTG
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG
+Seq 2: GTGTAACAGCA-TCCATGTGG
+Alignment score: 19
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG-
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGGA
+Seq 2: GTGTAACAGCA-TCCATGTGG-
+Alignment score: 18
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGGA
+Seq 2: GTGTAACAGCA-TCCATGTGGA
+Alignment score: 20
+
+------------------------------
+Position in file: 13693
+Buffer: GCTGTGTACC
+Seq 1: GTGTAACAGCAGTCCATGTGG-A
+Seq 2: GTGTAACAGCA-TCCATGTGGAA
+Alignment score: 19
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGG
+Seq 2: TGTAACAGCA-TCCATGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGA
+Seq 2: TGTAACAGCA-TCCATGTGGA
+Alignment score: 19
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGAG
+Seq 2: TGTAACAGCA-TCCATGTGGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGG
+Seq 2: TGTAACAGCA-TCCATGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGA
+Seq 2: TGTAACAGCA-TCCATGTGGA
+Alignment score: 19
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGAG
+Seq 2: TGTAACAGCA-TCCATGTGGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGG
+Seq 2: TGTAACAGCA-TCCATGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGA
+Seq 2: TGTAACAGCA-TCCATGTGGA
+Alignment score: 19
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGAG
+Seq 2: TGTAACAGCA-TCCATGTGGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGG
+Seq 2: TGTAACAGCA-TCCATGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGA
+Seq 2: TGTAACAGCA-TCCATGTGGA
+Alignment score: 19
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGAG
+Seq 2: TGTAACAGCA-TCCATGTGGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGG
+Seq 2: TGTAACAGCA-TCCATGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGA
+Seq 2: TGTAACAGCA-TCCATGTGGA
+Alignment score: 19
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGAG
+Seq 2: TGTAACAGCA-TCCATGTGGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGG
+Seq 2: TGTAACAGCA-TCCATGTGG
+Alignment score: 18
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGA
+Seq 2: TGTAACAGCA-TCCATGTGGA
+Alignment score: 19
+
+------------------------------
+Position in file: 13694
+Buffer: CTGTGTACCA
+Seq 1: TGTAACAGCAGTCCATGTGGAG
+Seq 2: TGTAACAGCA-TCCATGTGGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 16158
+Buffer: CGTCAATCTC
+Seq 1: AGGCAGTGACTGTTCAGA
+Seq 2: AGGCAGTGACTGTTCAGA
+Alignment score: 18
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: GGCAGTGACTGTTCAGAC
+Seq 2: GGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: AGGCAGTGACTGTTCAGA
+Seq 2: AGGCAGTGACTGTTCAGA
+Alignment score: 18
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: AGGCAGTGACTGTTCAGAC
+Seq 2: AGGCAGTGACTGTTCAGAC
+Alignment score: 19
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: AGGCAGTGACTGTTCAGAC-
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: CAGGCAGTGACTGTTCAG
+Seq 2: CAGGCAGTGACTGTTCAG
+Alignment score: 18
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: CAGGCAGTGACTGTTCAGA
+Seq 2: CAGGCAGTGACTGTTCAGA
+Alignment score: 19
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: CAGGCAGTGACTGTTCAGA-
+Seq 2: CAGGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: CAGGCAGTGACTGTTCAGAC
+Seq 2: CAGGCAGTGACTGTTCAGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: CAGGCAGTGACTGTTCAGAC
+Seq 2: CAGGCAGTGACTGTTCAGAC
+Alignment score: 20
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: CAGGCAGTGACTGTTCAGAC-
+Seq 2: CAGGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16159
+Buffer: GTCAATCTCT
+Seq 1: CAGGCAGTGACTGTTCAGAC--
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: GCAGTGACTGTTCAGACG
+Seq 2: GCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: GGCAGTGACTGTTCAGAC
+Seq 2: GGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: GGCAGTGACTGTTCAGACG
+Seq 2: GGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: GGCAGTGACTGTTCAGACG-
+Seq 2: GGCAGTGACTGTTCAGACGT
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: AGGCAGTGACTGTTCAGA
+Seq 2: AGGCAGTGACTGTTCAGA
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: AGGCAGTGACTGTTCAGAC
+Seq 2: AGGCAGTGACTGTTCAGAC
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: AGGCAGTGACTGTTCAGAC-
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGAC-
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 20
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: AGGCAGTGACTGTTCAGACG-
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: AGGCAGTGACTGTTCAGACG--
+Seq 2: AGGCAGTGACTGTTCAGACGTC
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAG
+Seq 2: CAGGCAGTGACTGTTCAG
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGA
+Seq 2: CAGGCAGTGACTGTTCAGA
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGA-
+Seq 2: CAGGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGAC
+Seq 2: CAGGCAGTGACTGTTCAGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGAC
+Seq 2: CAGGCAGTGACTGTTCAGAC
+Alignment score: 20
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGAC-
+Seq 2: CAGGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGAC--
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGACG
+Seq 2: CAGGCAGTGACTGTTCAGAC-
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGACG
+Seq 2: CAGGCAGTGACTGTTCAGACG
+Alignment score: 21
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGACG-
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 20
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGACG--
+Seq 2: CAGGCAGTGACTGTTCAGACGTC
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: CAGGCAGTGACTGTTCAGACG---
+Seq 2: CAGGCAGTGACTGTTCAGACGTCT
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCA
+Seq 2: TCAGGCAGTGACTGTTCA
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAG
+Seq 2: TCAGGCAGTGACTGTTCAG
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAG-
+Seq 2: TCAGGCAGTGACTGTTCAGA
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGA
+Seq 2: TCAGGCAGTGACTGTTCAG-
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGA
+Seq 2: TCAGGCAGTGACTGTTCAGA
+Alignment score: 20
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGA-
+Seq 2: TCAGGCAGTGACTGTTCAGAC
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGA--
+Seq 2: TCAGGCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGAC
+Seq 2: TCAGGCAGTGACTGTTCAGA-
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGAC
+Seq 2: TCAGGCAGTGACTGTTCAGAC
+Alignment score: 21
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGAC-
+Seq 2: TCAGGCAGTGACTGTTCAGACG
+Alignment score: 20
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGAC--
+Seq 2: TCAGGCAGTGACTGTTCAGACGT
+Alignment score: 19
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGA---C
+Seq 2: TCAGGCAGTGACTGTTCAGACGTC
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGACG
+Seq 2: TCAGGCAGTGACTGTTCAGA--
+Alignment score: 18
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGACG
+Seq 2: TCAGGCAGTGACTGTTCAGAC-
+Alignment score: 20
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGACG
+Seq 2: TCAGGCAGTGACTGTTCAGACG
+Alignment score: 22
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGACG-
+Seq 2: TCAGGCAGTGACTGTTCAGACGT
+Alignment score: 21
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGACG--
+Seq 2: TCAGGCAGTGACTGTTCAGACGTC
+Alignment score: 20
+
+------------------------------
+Position in file: 16160
+Buffer: TCAATCTCTT
+Seq 1: TCAGGCAGTGACTGTTCAGACG---
+Seq 2: TCAGGCAGTGACTGTTCAGACGTCT
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: GCAGTGACTGTTCAGACG
+Seq 2: GCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: GCAGTGACTGTTCAGACGT
+Seq 2: GCAGTGACTGTTCAGACGT
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: GCAGTGACTGTTCAGACGT-
+Seq 2: GCAGTGACTGTTCAGACGTC
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: GGCAGTGACTGTTCAGAC
+Seq 2: GGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: GGCAGTGACTGTTCAGACG
+Seq 2: GGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: GGCAGTGACTGTTCAGACG-
+Seq 2: GGCAGTGACTGTTCAGACGT
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: GGCAGTGACTGTTCAGACGT
+Seq 2: GGCAGTGACTGTTCAGACG-
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: GGCAGTGACTGTTCAGACGT
+Seq 2: GGCAGTGACTGTTCAGACGT
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: GGCAGTGACTGTTCAGACGT-
+Seq 2: GGCAGTGACTGTTCAGACGTC
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: AGGCAGTGACTGTTCAGA
+Seq 2: AGGCAGTGACTGTTCAGA
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: AGGCAGTGACTGTTCAGAC
+Seq 2: AGGCAGTGACTGTTCAGAC
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: AGGCAGTGACTGTTCAGAC-
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGAC-
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: AGGCAGTGACTGTTCAGACG-
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: AGGCAGTGACTGTTCAGACG--
+Seq 2: AGGCAGTGACTGTTCAGACGTC
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACG-
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 21
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: AGGCAGTGACTGTTCAGACGT-
+Seq 2: AGGCAGTGACTGTTCAGACGTC
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAG
+Seq 2: CAGGCAGTGACTGTTCAG
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGA
+Seq 2: CAGGCAGTGACTGTTCAGA
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGA-
+Seq 2: CAGGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC
+Seq 2: CAGGCAGTGACTGTTCAGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC
+Seq 2: CAGGCAGTGACTGTTCAGAC
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC-
+Seq 2: CAGGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC--
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG
+Seq 2: CAGGCAGTGACTGTTCAGAC-
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG
+Seq 2: CAGGCAGTGACTGTTCAGACG
+Alignment score: 21
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG-
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG--
+Seq 2: CAGGCAGTGACTGTTCAGACGTC
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT
+Seq 2: CAGGCAGTGACTGTTCAGAC--
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT
+Seq 2: CAGGCAGTGACTGTTCAGACG-
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 22
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT-
+Seq 2: CAGGCAGTGACTGTTCAGACGTC
+Alignment score: 21
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAG
+Seq 2: CAGGCAGTGACTGTTCAG
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGA
+Seq 2: CAGGCAGTGACTGTTCAGA
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGA-
+Seq 2: CAGGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC
+Seq 2: CAGGCAGTGACTGTTCAGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC
+Seq 2: CAGGCAGTGACTGTTCAGAC
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC-
+Seq 2: CAGGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC--
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG
+Seq 2: CAGGCAGTGACTGTTCAGAC-
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG
+Seq 2: CAGGCAGTGACTGTTCAGACG
+Alignment score: 21
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG-
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG--
+Seq 2: CAGGCAGTGACTGTTCAGACGTC
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT
+Seq 2: CAGGCAGTGACTGTTCAGAC--
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT
+Seq 2: CAGGCAGTGACTGTTCAGACG-
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 22
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT-
+Seq 2: CAGGCAGTGACTGTTCAGACGTC
+Alignment score: 21
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAG
+Seq 2: CAGGCAGTGACTGTTCAG
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGA
+Seq 2: CAGGCAGTGACTGTTCAGA
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGA-
+Seq 2: CAGGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC
+Seq 2: CAGGCAGTGACTGTTCAGA-
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC
+Seq 2: CAGGCAGTGACTGTTCAGAC
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC-
+Seq 2: CAGGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGAC--
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG
+Seq 2: CAGGCAGTGACTGTTCAGAC-
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG
+Seq 2: CAGGCAGTGACTGTTCAGACG
+Alignment score: 21
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG-
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACG--
+Seq 2: CAGGCAGTGACTGTTCAGACGTC
+Alignment score: 19
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT
+Seq 2: CAGGCAGTGACTGTTCAGAC--
+Alignment score: 18
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT
+Seq 2: CAGGCAGTGACTGTTCAGACG-
+Alignment score: 20
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT
+Seq 2: CAGGCAGTGACTGTTCAGACGT
+Alignment score: 22
+
+------------------------------
+Position in file: 16161
+Buffer: CAATCTCTTT
+Seq 1: CAGGCAGTGACTGTTCAGACGT-
+Seq 2: CAGGCAGTGACTGTTCAGACGTC
+Alignment score: 21
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: GGCAGTGACTGTTCAGAC
+Seq 2: GGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: GGCAGTGACTGTTCAGACG
+Seq 2: GGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: GGCAGTGACTGTTCAGACG-
+Seq 2: GGCAGTGACTGTTCAGACGT
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: GGCAGTGACTGTTCAGACGT
+Seq 2: GGCAGTGACTGTTCAGACG-
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: GGCAGTGACTGTTCAGACGT
+Seq 2: GGCAGTGACTGTTCAGACGT
+Alignment score: 20
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: GGCAGTGACTGTTCAGACGTC
+Seq 2: GGCAGTGACTGTTCAGACGT-
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGA
+Seq 2: AGGCAGTGACTGTTCAGA
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGAC
+Seq 2: AGGCAGTGACTGTTCAGAC
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGAC-
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGAC-
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 20
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG-
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACG-
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 21
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGTC
+Seq 2: AGGCAGTGACTGTTCAGACG--
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGTC
+Seq 2: AGGCAGTGACTGTTCAGACGT-
+Alignment score: 20
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGA
+Seq 2: AGGCAGTGACTGTTCAGA
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGAC
+Seq 2: AGGCAGTGACTGTTCAGAC
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGAC-
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGAC-
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 20
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG-
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACG-
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 21
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGTC
+Seq 2: AGGCAGTGACTGTTCAGACG--
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGTC
+Seq 2: AGGCAGTGACTGTTCAGACGT-
+Alignment score: 20
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGA
+Seq 2: AGGCAGTGACTGTTCAGA
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGAC
+Seq 2: AGGCAGTGACTGTTCAGAC
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGAC-
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGAC-
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 20
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG-
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACG-
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 21
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGTC
+Seq 2: AGGCAGTGACTGTTCAGACG--
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGTC
+Seq 2: AGGCAGTGACTGTTCAGACGT-
+Alignment score: 20
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGA
+Seq 2: AGGCAGTGACTGTTCAGA
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGAC
+Seq 2: AGGCAGTGACTGTTCAGAC
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGAC-
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGAC-
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 20
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG-
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACG-
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 21
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGTC
+Seq 2: AGGCAGTGACTGTTCAGACG--
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGTC
+Seq 2: AGGCAGTGACTGTTCAGACGT-
+Alignment score: 20
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGA
+Seq 2: AGGCAGTGACTGTTCAGA
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGAC
+Seq 2: AGGCAGTGACTGTTCAGAC
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGAC-
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGAC-
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG
+Seq 2: AGGCAGTGACTGTTCAGACG
+Alignment score: 20
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACG-
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACG-
+Alignment score: 19
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGT
+Seq 2: AGGCAGTGACTGTTCAGACGT
+Alignment score: 21
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGTC
+Seq 2: AGGCAGTGACTGTTCAGACG--
+Alignment score: 18
+
+------------------------------
+Position in file: 16162
+Buffer: AATCTCTTTC
+Seq 1: AGGCAGTGACTGTTCAGACGTC
+Seq 2: AGGCAGTGACTGTTCAGACGT-
+Alignment score: 20
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGAC
+Seq 2: GGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACG
+Seq 2: GGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACGT
+Seq 2: GGCAGTGACTGTTCAGACG-
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGAC
+Seq 2: GGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACG
+Seq 2: GGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACGT
+Seq 2: GGCAGTGACTGTTCAGACG-
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGAC
+Seq 2: GGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACG
+Seq 2: GGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACGT
+Seq 2: GGCAGTGACTGTTCAGACG-
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGAC
+Seq 2: GGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACG
+Seq 2: GGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACGT
+Seq 2: GGCAGTGACTGTTCAGACG-
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGAC
+Seq 2: GGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACG
+Seq 2: GGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACGT
+Seq 2: GGCAGTGACTGTTCAGACG-
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGAC
+Seq 2: GGCAGTGACTGTTCAGAC
+Alignment score: 18
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACG
+Seq 2: GGCAGTGACTGTTCAGACG
+Alignment score: 19
+
+------------------------------
+Position in file: 16163
+Buffer: ATCTCTTTCT
+Seq 1: GGCAGTGACTGTTCAGACGT
+Seq 2: GGCAGTGACTGTTCAGACG-
+Alignment score: 18
