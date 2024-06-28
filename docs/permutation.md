@@ -7,7 +7,7 @@
 
 $$\ _nP_k = \frac{n!}{(n-r)!}$$
 
-## next_permutation
+## next_permutation (c++)
 
 `next_permutation(시작지점, 끝지점)`
 
