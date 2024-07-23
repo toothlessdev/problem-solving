@@ -1,13 +1,13 @@
 const fs = require("fs");
 const io = process.platform === "linux" ? "/dev/stdin" : "input.txt";
 
-let [a, b, c] = fs.readFileSync(io).toString().trim().split(" ").map(Number);
+let [a, b, c] = fs.readFileSync(io).toString().trim().split(" ").map(BigInt);
 
 function multiply(a, b) {
-    if (b === 1) return a % c;
-    let cache = multiply(a, Math.floor(b / 2));
+    if (b === 1n) return a % c;
+    let cache = multiply(a, b / 2n);
     cache = (cache * cache) % c;
-    if (b % 2) cache = (cache * a) % c;
+    if (b % 2n) cache = (cache * a) % c;
     return cache;
 }
 
