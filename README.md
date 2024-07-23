@@ -11,4 +11,5 @@
 ## 오답노트
 
 [2559](https://www.acmicpc.net/problem/2559) <br/>
-[3986](https://www.acmicpc.net/problem/3986)
+[3986](https://www.acmicpc.net/problem/3986) <br/>
+[1629](https://www.acmicpc.net/problem/1629)
