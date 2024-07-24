@@ -8,6 +8,7 @@
 5. [누적합 Prefix Sum](./docs/prefixsum.md)
 6. [구현 Implementation](./docs/implementation.md)
 7. [정수론 Number Theory](./docs/numbertheory.md)
+8. [그래프 이론 Graph Theory](./docs/graph.md)
 
 ## 오답노트
 
