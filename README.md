@@ -7,9 +7,11 @@
 4. [조합 Combination](./docs/combination.md)
 5. [누적합 Prefix Sum](./docs/prefixsum.md)
 6. [구현 Implementation](./docs/implementation.md)
+7. [정수론 Number Theory](./docs/numbertheory.md)
 
 ## 오답노트
 
 [2559](https://www.acmicpc.net/problem/2559) <br/>
 [3986](https://www.acmicpc.net/problem/3986) <br/>
-[1629](https://www.acmicpc.net/problem/1629)
+[1629](https://www.acmicpc.net/problem/1629) <br/>
+[4375](https://www.acmicpc.net/problem/4375)
