@@ -7,6 +7,7 @@ for (const input of inputs) {
     let number = "";
     let digit = 1;
     while (true) {
+        // MOD 연산의 성질
         number = BigInt(number + "1") % BigInt(input);
         digit++;
         if (number % input === 0n) {
@@ -15,5 +16,3 @@ for (const input of inputs) {
         }
     }
 }
-
-// MOD 연산의 성질
