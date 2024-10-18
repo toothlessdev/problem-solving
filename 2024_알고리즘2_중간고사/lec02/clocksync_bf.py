@@ -15,8 +15,6 @@ linked = {
     9: [3,4,5,9,13]
 }
 
-
-
 for _ in range(tests):
     pass
     
