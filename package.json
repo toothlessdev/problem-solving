@@ -1,0 +1,12 @@
+{
+    "name": "problem-solving",
+    "version": "1.0.0",
+    "main": "main.js",
+    "repository": "https://github.com/toothlessdev/Problem-Solving.git",
+    "author": "toothlessdev <toothless042@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start:py": "python3 main.py < in.txt",
+        "start:js": "node main.js"
+    }
+}

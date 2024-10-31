@@ -4,3 +4,5 @@
 *.txt
 input.txt
 tempCodeRunnerFile.js
+
+node_modules
