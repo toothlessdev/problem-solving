@@ -1,45 +1,42 @@
-import sys
-input = sys.stdin.readline
+def pathfind(n,D):
+    for i in range(n):
+        D[i][i] = True
+    for k in range(n):
+        for i in range(n):
+            for j in range(n):
+                D[i][j] = D[i][j] or (D[i][k] and D[k][j])
 
-class SegmentTree:
-    def __init__(self, n, arr):
-        self.n = n
-        self.nodes = [0] * (4 * n)
-        self.init(1,0,n-1)
-    
-    def init(self, node, left, right):
-        if left == right:
-            self.nodes[node] = self.arr[left]
-            return self.nodes[node]
-        else:
-            mid = (left + right) // 2
-            lmin = self.init(2*node, left, mid)
-            rmin = self.init(2*node+1, mid+1, right)
-            self.nodes[node] = min(lmin, rmin)
-            return self.nodes[node]
-    
-    def query(self, node, low, high, left, right):
-        if right < low or high < left:
-            return float('inf')
-        elif left <= low and high <= right:
-            return self.nodes[node]
-        else:
-            mid = (low + high) // 2
-            lmin = self.query(2*node, low, mid, left, right)
-            rmin = self.query(2*node+1, mid+1, high, left, right)
-            return min(lmin, rmin)
+def timetrip(src, target, n, adj, reachable):
+    upper= [float('INF')]*n
+    upper[src] = 0
+    for _ in range(n-1):
+        for here in range(n):
+            for there, cost in adj[here]:
+                upper[there] = min(upper[there], upper[here]+cost)
+    for here in range(n):
+        for there, cost in adj[here]:
+            if upper[there] > upper[here] + cost:
+                if reachable[src][here] and reachable[here][target]:
+                    return float('-INF')
+                
+    return upper[target]
 
-def mordor(n, h, query):
-    min_tree = SegmentTree(n, h)
-    max_tree = SegmentTree(n, [-x for x in h])
+for _ in range(int(input())):
+    n, m = map(int, input().split())
+    adj1 = [[] for _ in range(n)]
+    adj2 = [[] for _ in range(n)]
+    reachable = [[False]*n for _ in range(n)]
+    for _ in range(m):
+        a,b,d = map(int, input().split())
+        adj1[a].append((b,d))
+        adj2[a].append((b,-d))
+        reachable[a][b] = True
 
-    for a, b in query:
-        range_min = min_tree.query(1,0,n-1,a,b)
-        range_max = max_tree.query(1,0,n-1,a,b)
-        print(-range_max - range_min)
-
-for _ in range(int(input().strip())):
-    n, q = map(int, input().split())
-    h = list(map(int, input().split()))
-    query = [list(map(int, input().split())) for _ in range(q)]
-    mordor(n, h, query)
+    pathfind(n, reachable)
+    ret1 = timetrip(0, 1, n, adj1, reachable)
+    ret2 = timetrip(0, 1, n, adj2, reachable)
+    if not reachable[0][1]:
+        print('UNREACHABLE')
+    else:
+        print('INFINITY' if ret1 == float('-INF') else ret1, end=' ')
+        print('INFINITY' if ret2 == float('-INF') else -ret2)
