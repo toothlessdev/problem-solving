@@ -1,42 +1,30 @@
-def pathfind(n,D):
-    for i in range(n):
-        D[i][i] = True
-    for k in range(n):
-        for i in range(n):
-            for j in range(n):
-                D[i][j] = D[i][j] or (D[i][k] and D[k][j])
+cur_index = 0
 
-def timetrip(src, target, n, adj, reachable):
-    upper= [float('INF')]*n
-    upper[src] = 0
-    for _ in range(n-1):
-        for here in range(n):
-            for there, cost in adj[here]:
-                upper[there] = min(upper[there], upper[here]+cost)
-    for here in range(n):
-        for there, cost in adj[here]:
-            if upper[there] > upper[here] + cost:
-                if reachable[src][here] and reachable[here][target]:
-                    return float('-INF')
-                
-    return upper[target]
+def get_root():
+    global cur_index
+    root = pre_order[cur_index]
+    cur_index += 1
+    return root
+    
+def search_sub_tree(start, end):
+    # print(start, end, in_order[start:end+1])
+    root = get_root()
+    try:
+        root_index = in_order[start:end+1].index(root)
+    except ValueError:
+        print(root)
+
+    search_sub_tree(start, root_index -1)
+    search_sub_tree(root_index + 1, end)
+
+    print(root)
 
 for _ in range(int(input())):
-    n, m = map(int, input().split())
-    adj1 = [[] for _ in range(n)]
-    adj2 = [[] for _ in range(n)]
-    reachable = [[False]*n for _ in range(n)]
-    for _ in range(m):
-        a,b,d = map(int, input().split())
-        adj1[a].append((b,d))
-        adj2[a].append((b,-d))
-        reachable[a][b] = True
+    global pre_order, in_order, nodes
+    
+    nodes = int(input())
+    pre_order = list(map(int,input().split()))
+    in_order = list(map(int,input().split()))
 
-    pathfind(n, reachable)
-    ret1 = timetrip(0, 1, n, adj1, reachable)
-    ret2 = timetrip(0, 1, n, adj2, reachable)
-    if not reachable[0][1]:
-        print('UNREACHABLE')
-    else:
-        print('INFINITY' if ret1 == float('-INF') else ret1, end=' ')
-        print('INFINITY' if ret2 == float('-INF') else -ret2)
+    search_sub_tree(0, nodes-1)
+

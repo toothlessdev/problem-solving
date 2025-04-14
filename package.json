@@ -7,6 +7,7 @@
     "license": "MIT",
     "scripts": {
         "start:py": "python3 main.py < in.txt",
-        "start:js": "node main.js"
+        "start:js": "node main.js",
+        "start:cpp": "g++ "
     }
 }
