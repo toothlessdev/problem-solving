@@ -36,7 +36,6 @@ int main() {
         }
     }
 
-    // 2) 역추적(back‑tracking)
     int x = len1, y = len2;
     while (x > 0 && y > 0 && path[x][y] != NONE) {
         if (path[x][y] == DIAG) {
