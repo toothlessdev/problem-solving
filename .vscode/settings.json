@@ -23,6 +23,8 @@
         "unordered_map": "cpp",
         "unordered_set": "cpp",
         "valarray": "cpp",
-        "vector": "cpp"
-    }
+        "vector": "cpp",
+        "queue": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
