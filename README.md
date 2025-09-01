@@ -17,3 +17,4 @@
 [1629](https://www.acmicpc.net/problem/1629) <br/>
 [4375](https://www.acmicpc.net/problem/4375) <br/>
 [2630](https://www.acmicpc.net/problem/2630) : 분할정복시 가운데 인덱스는 분리, (begin + end) // 2 로 계산<br/>
+[2470](https://www.acmicpc.net/problem/2630) 투포인터 뭘 옮겨야될지 생각이 안남
