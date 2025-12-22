@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Swap 순열 트리 애니메이션</title>
+        <style>
+            body {
+                font-family: "Pretendard", sans-serif;
+                background: #f8f9fa;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+            }
+            .controls {
+                margin-bottom: 20px;
+                gap: 10px;
+                display: flex;
+            }
+            button {
+                padding: 10px 20px;
+                border-radius: 8px;
+                border: none;
+                background: #4834d4;
+                color: white;
+                cursor: pointer;
+                font-weight: bold;
+            }
+
+            canvas {
+                background: white;
+                border-radius: 15px;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            }
+            .info {
+                margin-top: 15px;
+                background: #2f3542;
+                color: #fff;
+                padding: 15px;
+                border-radius: 10px;
+                width: 600px;
+                font-family: monospace;
+                font-size: 14px;
+            }
+            .highlight-text {
+                color: #ff4757;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="controls">
+            <button id="startBtn">애니메이션 시작</button>
+            <button onclick="location.reload()" style="background: #747d8c">
+                초기화
+            </button>
+        </div>
+
+        <canvas id="treeCanvas" width="800" height="500"></canvas>
+
+        <div class="info" id="status">
+            [시작] 버튼을 누르면 트리가 생성됩니다. (A, B, C 중 2개 선택)
+        </div>
+
+        <script>
+            const canvas = document.getElementById("treeCanvas");
+            const ctx = canvas.getContext("2d");
+            const status = document.getElementById("status");
+
+            const sleep = (ms) =>
+                new Promise((resolve) => setTimeout(resolve, ms));
+
+            // 노드 그리기 함수
+            function drawNode(x, y, text, color = "#4834d4", isActive = false) {
+                ctx.beginPath();
+                ctx.arc(x, y, 25, 0, Math.PI * 2);
+                ctx.fillStyle = isActive ? "#ff4757" : color;
+                ctx.fill();
+                ctx.strokeStyle = "#2f3542";
+                ctx.lineWidth = 2;
+                ctx.stroke();
+                ctx.closePath();
+
+                ctx.fillStyle = "white";
+                ctx.font = "bold 14px sans-serif";
+                ctx.textAlign = "center";
+                ctx.fillText(text, x, y + 5);
+            }
+
+            // 선 그리기 함수
+            function drawLine(x1, y1, x2, y2, color = "#ced4da") {
+                ctx.beginPath();
+                ctx.moveTo(x1, y1 + 25);
+                ctx.lineTo(x2, y2 - 25);
+                ctx.strokeStyle = color;
+                ctx.lineWidth = 2;
+                ctx.stroke();
+                ctx.closePath();
+            }
+
+            async function runPermutation(arr, n, r, depth, x, y, spacing) {
+                const currentArrStr = `[${arr.join(",")}]`;
+                drawNode(x, y, currentArrStr, "#4834d4", true);
+                status.innerHTML = `현재 위치: <span class="highlight-text">depth ${depth}</span>, 배열 상태: ${currentArrStr}`;
+
+                if (depth === r) {
+                    status.innerHTML = `✅ <span style="color:#2ed573">순열 발견: [${arr
+                        .slice(0, r)
+                        .join(", ")}]</span>`;
+                    drawNode(x, y, arr.slice(0, r).join(","), "#2ed573");
+                    await sleep(1000);
+                    return;
+                }
+
+                for (let i = depth; i < n; i++) {
+                    // Swap
+                    [arr[i], arr[depth]] = [arr[depth], arr[i]];
+
+                    const nextX =
+                        x - (spacing * (n - 1)) / 2 + (i - depth) * spacing;
+                    const nextY = y + 100;
+
+                    drawLine(x, y, nextX, nextY);
+                    await sleep(800);
+
+                    // 재귀
+                    await runPermutation(
+                        [...arr],
+                        n,
+                        r,
+                        depth + 1,
+                        nextX,
+                        nextY,
+                        spacing * 0.5
+                    );
+
+                    // Backtrack (시각적으로 보여주기 위해 살짝 대기)
+                    status.innerHTML = `🔙 <span class="highlight-text">Backtrack</span>: ${arr[depth]}와 ${arr[i]} 복구 중...`;
+                    drawNode(x, y, currentArrStr, "#ffa502", true);
+                    await sleep(500);
+
+                    // 원본 복구
+                    [arr[i], arr[depth]] = [arr[depth], arr[i]];
+                }
+            }
+
+            document.getElementById("startBtn").onclick = async () => {
+                document.getElementById("startBtn").disabled = true;
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                await runPermutation(["A", "B", "C"], 3, 2, 0, 400, 50, 240);
+                status.innerText = "탐색이 완료되었습니다.";
+            };
+        </script>
+    </body>
+</html>

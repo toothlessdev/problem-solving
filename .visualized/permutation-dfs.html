@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>DFS 순열 트리 (겹침 해결 버전)</title>
+        <style>
+            body {
+                font-family: "Pretendard", sans-serif;
+                background: #f8f9fa;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+            }
+            .controls {
+                margin-bottom: 20px;
+            }
+            button {
+                padding: 12px 24px;
+                border-radius: 8px;
+                border: none;
+                background: #2f3542;
+                color: white;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            canvas {
+                background: white;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            }
+            .info {
+                margin-top: 15px;
+                background: #2f3542;
+                color: white;
+                padding: 15px;
+                border-radius: 10px;
+                width: 1000px;
+                font-family: monospace;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>🌳 DFS 순열 트리 (6개 결과 완벽 시각화)</h2>
+        <div class="controls">
+            <button id="startBtn" style="background: #2ed573">
+                시뮬레이션 시작
+            </button>
+            <button onclick="location.reload()" style="background: #747d8c">
+                초기화
+            </button>
+        </div>
+
+        <canvas id="treeCanvas" width="1100" height="600"></canvas>
+
+        <div class="info" id="status">
+            [시작]을 누르면 6개의 순열이 겹치지 않게 생성됩니다.
+        </div>
+
+        <script>
+            const canvas = document.getElementById("treeCanvas");
+            const ctx = canvas.getContext("2d");
+            const status = document.getElementById("status");
+
+            const arr = ["A", "B", "C"];
+            const n = 3,
+                r = 2;
+            let visited = [false, false, false];
+            const sleep = (ms) => new Promise((res) => setTimeout(res, ms));
+
+            function drawNode(x, y, path, currentVisited, isComplete) {
+                const radius = 28;
+
+                // 1. 원형 노드 그리기
+                ctx.beginPath();
+                ctx.arc(x, y, radius, 0, Math.PI * 2);
+                ctx.fillStyle = isComplete ? "#2ed573" : "#ffffff";
+                ctx.fill();
+                ctx.strokeStyle = isComplete ? "#15b04a" : "#4834d4";
+                ctx.lineWidth = 3;
+                ctx.stroke();
+
+                // 2. 경로 텍스트
+                ctx.fillStyle = isComplete ? "white" : "#2d3436";
+                ctx.font = "bold 14px sans-serif";
+                ctx.textAlign = "center";
+                ctx.fillText(path.length ? path.join("") : "Root", x, y + 5);
+
+                // 3. isVisited 상태 (노드 바로 아래 작게 표시)
+                const vSize = 10;
+                const vGap = 3;
+                const startX = x - (vSize * 3 + vGap * 2) / 2;
+
+                arr.forEach((char, i) => {
+                    ctx.fillStyle = currentVisited[i] ? "#ff4757" : "#dfe6e9";
+                    ctx.fillRect(
+                        startX + i * (vSize + vGap),
+                        y + 35,
+                        vSize,
+                        vSize
+                    );
+                    ctx.fillStyle = currentVisited[i] ? "white" : "#636e72";
+                    ctx.font = "8px sans-serif";
+                    ctx.fillText(
+                        char,
+                        startX + i * (vSize + vGap) + vSize / 2,
+                        y + 43
+                    );
+                });
+            }
+
+            function drawLine(x1, y1, x2, y2) {
+                ctx.beginPath();
+                ctx.moveTo(x1, y1 + 30);
+                ctx.lineTo(x2, y2 - 30);
+                ctx.strokeStyle = "#ced4da";
+                ctx.lineWidth = 2;
+                ctx.stroke();
+            }
+
+            async function dfs(depth, path, x, y, widthRange) {
+                drawNode(x, y, path, [...visited], depth === r);
+
+                if (depth === r) {
+                    await sleep(1000);
+                    return;
+                }
+
+                // 현재 노드에서 방문 가능한 자식들 찾기
+                let candidates = [];
+                for (let i = 0; i < n; i++) {
+                    if (!visited[i]) candidates.push(i);
+                }
+
+                // 자식들이 차지할 영역을 등분하여 좌표 계산
+                const childCount = candidates.length;
+                const segment = widthRange / childCount;
+
+                for (let idx = 0; idx < childCount; idx++) {
+                    const i = candidates[idx];
+
+                    visited[i] = true;
+                    path.push(arr[i]);
+
+                    // 겹침 방지 핵심: 부모가 가진 영역(widthRange) 내에서 자식 수만큼 등분하여 배치
+                    const nextX =
+                        x - widthRange / 2 + segment * idx + segment / 2;
+                    const nextY = y + 150;
+
+                    drawLine(x, y, nextX, nextY);
+                    await sleep(700);
+
+                    // 다음 층은 자식이 사용할 영역을 다시 줄여서 전달
+                    await dfs(depth + 1, path, nextX, nextY, segment);
+
+                    path.pop();
+                    visited[i] = false;
+
+                    // 백트래킹 후 상태 업데이트
+                    drawNode(x, y, path, [...visited], false);
+                    await sleep(300);
+                }
+            }
+
+            document.getElementById("startBtn").onclick = async () => {
+                document.getElementById("startBtn").disabled = true;
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                // 전체 가로 폭 1000을 기준으로 시작
+                await dfs(0, [], canvas.width / 2, 80, 1000);
+                status.innerHTML =
+                    "✨ <b>탐색 완료!</b> 6개의 순열이 겹침 없이 모두 생성되었습니다.";
+            };
+        </script>
+    </body>
+</html>
