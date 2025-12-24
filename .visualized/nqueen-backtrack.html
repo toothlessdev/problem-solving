@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <title>N-Queen 시각화 (N=4)</title>
+        <style>
+            :root {
+                --cell-size: 100px;
+                --white-cell: #eeeed2;
+                --black-cell: #769656;
+                --accent: #f1c40f;
+                --danger: #e74c3c;
+                --success: #2ecc71;
+            }
+            body {
+                font-family: "Pretendard", sans-serif;
+                background: #2c3e50;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 20px;
+            }
+            #board {
+                display: grid;
+                grid-template-columns: repeat(4, var(--cell-size));
+                border: 10px solid #34495e;
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+                margin-bottom: 20px;
+            }
+            .cell {
+                width: var(--cell-size);
+                height: var(--cell-size);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 60px;
+                transition: background 0.2s, transform 0.2s;
+                position: relative;
+            }
+            .white {
+                background: var(--white-cell);
+                color: #333;
+            }
+            .black {
+                background: var(--black-cell);
+                color: #333;
+            }
+
+            /* 상태별 스타일 */
+            .checking {
+                background: var(--accent) !important;
+                z-index: 2;
+                transform: scale(1.05);
+            }
+            .conflict {
+                background: var(--danger) !important;
+                color: white;
+            }
+            .placed {
+                animation: queen-in 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                color: #2c3e50;
+            }
+
+            @keyframes queen-in {
+                from {
+                    transform: translateY(-30px) scale(0.5);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateY(0) scale(1);
+                    opacity: 1;
+                }
+            }
+
+            .controls {
+                background: rgba(255, 255, 255, 0.1);
+                padding: 20px 40px;
+                border-radius: 50px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+            .slider-container {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+            input[type="range"] {
+                width: 200px;
+                cursor: pointer;
+            }
+
+            button {
+                padding: 12px 40px;
+                font-size: 18px;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 30px;
+                border: none;
+                background: var(--success);
+                color: white;
+                box-shadow: 0 4px 0 #27ae60;
+                transition: 0.1s;
+            }
+            button:active {
+                transform: translateY(2px);
+                box-shadow: none;
+            }
+            #status {
+                font-size: 1.4rem;
+                font-weight: bold;
+                margin-bottom: 20px;
+                height: 1.6em;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>N-Queen 시각화 (N=4)</h1>
+        <div id="status">시뮬레이션을 시작하세요</div>
+
+        <div id="board"></div>
+
+        <div class="controls">
+            <div class="slider-container">
+                <span>느리게</span>
+                <input
+                    type="range"
+                    id="speed"
+                    min="100"
+                    max="1000"
+                    value="500"
+                />
+                <span>빠르게</span>
+            </div>
+            <button onclick="run()">시작</button>
+        </div>
+
+        <script>
+            const N = 4;
+            const boardElem = document.getElementById("board");
+            const statusElem = document.getElementById("status");
+            const speedInput = document.getElementById("speed");
+
+            let col = new Array(N).fill(false);
+            let d1 = new Array(2 * N).fill(false);
+            let d2 = new Array(2 * N).fill(false);
+
+            function init() {
+                boardElem.innerHTML = "";
+                for (let y = 0; y < N; y++) {
+                    for (let x = 0; x < N; x++) {
+                        const cell = document.createElement("div");
+                        cell.className = `cell ${
+                            (y + x) % 2 === 0 ? "white" : "black"
+                        }`;
+                        cell.id = `c-${y}-${x}`;
+                        boardElem.appendChild(cell);
+                    }
+                }
+            }
+
+            // 슬라이더 값에 따라 대기 시간을 계산 (최대 1.1초 ~ 최소 0.1초)
+            const getDelay = () => 1100 - speedInput.value;
+            const sleep = () =>
+                new Promise((res) => setTimeout(res, getDelay()));
+
+            async function solve(y) {
+                if (y === N) {
+                    statusElem.innerText = "🎊 성공! 모든 퀸을 배치했습니다.";
+                    return true;
+                }
+
+                for (let x = 0; x < N; x++) {
+                    const cell = document.getElementById(`c-${y}-${x}`);
+
+                    // 1. 현재 칸 확인 중
+                    cell.classList.add("checking");
+                    statusElem.innerText = `${y}행 ${x}열 검사 중...`;
+                    await sleep();
+
+                    if (!col[x] && !d1[y - x + N] && !d2[y + x]) {
+                        // 2. 배치 가능
+                        cell.classList.remove("checking");
+                        cell.innerText = "♛";
+                        cell.classList.add("placed");
+
+                        col[x] = d1[y - x + N] = d2[y + x] = true;
+                        statusElem.innerText = `✅ ${y}행 ${x}열 배치 성공!`;
+
+                        await sleep();
+                        if (await solve(y + 1)) return true;
+
+                        // 3. 백트래킹 (하위 행에서 실패하여 되돌아옴)
+                        statusElem.innerText = `⚠️ ${
+                            y + 1
+                        }행이 불가능하여 ${y}행 퀸을 뺍니다.`;
+                        cell.classList.add("conflict");
+                        await sleep();
+                        cell.innerText = "";
+                        cell.classList.remove("placed", "conflict");
+                        col[x] = d1[y - x + N] = d2[y + x] = false;
+                    } else {
+                        // 4. 배치 불가능 (충돌)
+                        cell.classList.remove("checking");
+                        cell.classList.add("conflict");
+                        statusElem.innerText = `❌ ${y}행 ${x}열은 공격 경로입니다.`;
+                        await sleep();
+                        cell.classList.remove("conflict");
+                    }
+                }
+                return false;
+            }
+
+            function run() {
+                init();
+                col.fill(false);
+                d1.fill(false);
+                d2.fill(false);
+                solve(0);
+            }
+
+            init();
+        </script>
+    </body>
+</html>
