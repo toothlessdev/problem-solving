@@ -1,29 +1,63 @@
 const fs = require("fs");
-const io = process.platform === "linux" ? "/dev/stdin" : "./in.txt";
+const isLocal = process.platform === "linux";
 
-let [N, heights] = fs.readFileSync(io).toString().trim().split("\n");
+let input = fs
+    .readFileSync(isLocal ? "/dev/stdin" : "./in.txt")
+    .toString()
+    .trim()
+    .split("\n");
 
-N = Number(N);
-heights = heights.split(" ").map(Number);
+let cursor = 0;
+let next = () => input[cursor++];
 
-heights = heights.map((height, index) => ({
-    index: index + 1,
-    height,
-}));
+let m = Number(next());
 
-const stack = [heights[0]];
-const answer = [0];
+let normalized = {
+    origin: { x: -1, y: -1 },
+    adjacent: [],
+};
 
-for (const { index, height } of heights) {
-    if (index === 1) continue;
+for (let i = 0; i < m; i++) {
+    let [x, y] = next().split(" ").map(Number);
 
-    const lastItem = stack[stack.length - 1];
-
-    if (lastItem > height) {
-        answer.push(lastItem.index);
-        stack.push(lastItem);
+    if (i === 0) {
+        normalized.origin = { x, y };
     } else {
+        normalized.adjacent.push({
+            x: x - normalized.origin.x,
+            y: y - normalized.origin.y,
+        });
     }
 }
 
-console.log(heights);
+let n = Number(next());
+let picture = new Set();
+
+for (let i = 0; i < n; i++) {
+    let [x, y] = next().split(" ").map(Number);
+    picture.add(JSON.stringify({ x, y }));
+}
+
+for (const pic of picture) {
+    let { x: picX, y: picY } = JSON.parse(pic);
+
+    let isEqual = true;
+
+    for (const adj of normalized.adjacent) {
+        let adjX = adj.x;
+        let adjY = adj.y;
+
+        let x = picX + adjX;
+        let y = picY + adjY;
+
+        if (!picture.has(JSON.stringify({ x, y }))) {
+            isEqual = false;
+            break;
+        }
+    }
+
+    if (isEqual) {
+        console.log(picX - normalized.origin.x, picY - normalized.origin.y);
+        break;
+    }
+}
