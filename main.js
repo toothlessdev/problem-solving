@@ -1,63 +1,58 @@
+"use strict";
 const fs = require("fs");
-const isLocal = process.platform === "linux";
+const isLocal = false;
 
 let input = fs
-    .readFileSync(isLocal ? "/dev/stdin" : "./in.txt")
+    .readFileSync(isLocal ? "./in.txt" : 0)
     .toString()
     .trim()
     .split("\n");
 
-let cursor = 0;
-let next = () => input[cursor++];
+let _cursor = 0;
+let next = () => input[_cursor++];
 
-let m = Number(next());
+class UnionFind {
+    constructor(size, costs) {
+        this.parent = Array.from({ length: size + 1 })
+            .fill(null)
+            .map((_, i) => i);
+        this.costs = [Infinity, ...costs];
+    }
+    find(node) {
+        if (this.parent[node] === node) return node;
+        return (this.parent[node] = this.find(this.parent[node]));
+    }
+    union(node1, node2) {
+        let root1 = this.find(node1);
+        let root2 = this.find(node2);
 
-let normalized = {
-    origin: { x: -1, y: -1 },
-    adjacent: [],
-};
+        if (root1 === root2) return false;
+
+        if (this.costs[root1] < this.costs[root2]) {
+            this.parent[root2] = root1;
+        } else {
+            this.parent[root1] = root2;
+        }
+        return true;
+    }
+}
+
+let [n, m, k] = next().split(" ").map(Number);
+let costs = next().split(" ").map(Number);
+
+let uf = new UnionFind(n, costs);
 
 for (let i = 0; i < m; i++) {
-    let [x, y] = next().split(" ").map(Number);
-
-    if (i === 0) {
-        normalized.origin = { x, y };
-    } else {
-        normalized.adjacent.push({
-            x: x - normalized.origin.x,
-            y: y - normalized.origin.y,
-        });
-    }
+    let [from, to] = next().split(" ").map(Number);
+    uf.union(from, to);
 }
 
-let n = Number(next());
-let picture = new Set();
-
-for (let i = 0; i < n; i++) {
-    let [x, y] = next().split(" ").map(Number);
-    picture.add(JSON.stringify({ x, y }));
+let roots = new Set();
+for (let i = 1; i <= n; i++) {
+    roots.add(uf.find(i));
 }
 
-for (const pic of picture) {
-    let { x: picX, y: picY } = JSON.parse(pic);
+let sum = 0;
+for (const r of roots) sum += uf.costs[r];
 
-    let isEqual = true;
-
-    for (const adj of normalized.adjacent) {
-        let adjX = adj.x;
-        let adjY = adj.y;
-
-        let x = picX + adjX;
-        let y = picY + adjY;
-
-        if (!picture.has(JSON.stringify({ x, y }))) {
-            isEqual = false;
-            break;
-        }
-    }
-
-    if (isEqual) {
-        console.log(picX - normalized.origin.x, picY - normalized.origin.y);
-        break;
-    }
-}
+console.log(sum > k ? "Oh no" : sum);
